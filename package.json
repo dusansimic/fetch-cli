@@ -1,0 +1,22 @@
+{
+	"name": "fetch-cli",
+	"version": "0.0.1",
+	"description": "Simple fetch cli tool.",
+	"bin": {
+		"fetch": "./app.js"
+	},
+	"main": "app.js",
+	"preferGlobal": true,
+	"repository": "https://github.com/dusansimic/fetch-cli.git",
+	"author": "Dušan Simić",
+	"license": "MIT",
+	"dependencies": {
+		"commander": "^2.11.0",
+		"got": "^7.1.0"
+	},
+	"keywords": [
+		"fetch",
+		"request",
+		"cli"
+	]
+}
